@@ -1,6 +1,6 @@
 #!/bin/fish
 
-set config_folder ~/.config
+set config_folder  ~/.config
 set archive_folder ~/Mothership/config
 
 function setup
@@ -13,7 +13,7 @@ function setup
 
 end
 
-for f in (find $archive_folder -maxdepth 1 -type d | sed '1 d')
+for f in (find $archive_folder -maxdepth 1 -type d | sed '1 d; /.git/ d')
     setup $f
 end
 
