@@ -1,12 +1,12 @@
-2023/02/03-07:02:48.194 873e Reusing MANIFEST /home/jbc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2023/02/03-07:02:48.195 873e Recovering log #7
-2023/02/03-07:02:48.223 873e Reusing old log /home/jbc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000007.log 
-2023/02/03-07:44:23.745 8bae Level-0 table #12: started
-2023/02/03-07:44:23.764 8bae Level-0 table #12: 1364486 bytes OK
-2023/02/03-07:44:23.767 8bae Delete type=0 #7
-2023/02/03-07:48:48.194 8c50 Compacting 1@1 + 1@2 files
-2023/02/03-07:48:48.208 8c50 Generated table #13@1: 1275 keys, 163221 bytes
-2023/02/03-07:48:48.208 8c50 Compacted 1@1 + 1@2 files => 163221 bytes
-2023/02/03-07:48:48.211 8c50 compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/02/03-07:48:48.211 8c50 Delete type=2 #9
-2023/02/03-07:48:48.211 8c50 Delete type=2 #12
+2023/02/07-10:01:49.836 b9de Reusing MANIFEST /home/jbc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/07-10:01:49.836 b9de Recovering log #11
+2023/02/07-10:01:49.873 b9de Reusing old log /home/jbc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000011.log 
+2023/02/07-10:12:09.365 baea Level-0 table #16: started
+2023/02/07-10:12:09.406 baea Level-0 table #16: 1323478 bytes OK
+2023/02/07-10:12:09.410 baea Delete type=0 #11
+2023/02/07-10:15:49.834 bb27 Compacting 1@1 + 1@2 files
+2023/02/07-10:15:49.848 bb27 Generated table #17@1: 1715 keys, 206382 bytes
+2023/02/07-10:15:49.848 bb27 Compacted 1@1 + 1@2 files => 206382 bytes
+2023/02/07-10:15:49.851 bb27 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/02/07-10:15:49.851 bb27 Delete type=2 #16
+2023/02/07-10:15:49.851 bb27 Delete type=2 #13
