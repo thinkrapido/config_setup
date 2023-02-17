@@ -1,7 +1,7 @@
 #!/bin/fish
 
-set config_folder  ~/.config
-set archive_folder ~/Mothership/config
+set config_folder  ~/.config/
+set archive_folder ~/Mothership/config/
 
 function setup
 
