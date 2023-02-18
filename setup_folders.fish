@@ -11,6 +11,9 @@ function setup
 	rm -rf $config_folder/$folder 2> /dev/null
     ln -s $archive_folder/$folder $config_folder/$folder
 
+    if [ -e $config_folder/$folder/setup.fish ]
+        $config_folder/$folder/setup.fish
+    end
 end
 
 for f in (find $archive_folder -maxdepth 1 -type d | sed '1 d; /.git/ d')

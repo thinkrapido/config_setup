@@ -1,3 +1,4 @@
+require('romeo/packer')
 require('romeo/remap')
 
 vim.cmd([[
