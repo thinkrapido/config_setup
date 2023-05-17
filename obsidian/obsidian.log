@@ -249,3 +249,11 @@
 2023-02-21 04:58:35 Success.
 2023-02-21 04:58:35 Latest version is 1.1.9
 2023-02-21 04:58:35 App is up to date.
+2023-05-17 20:26:29 Loading updated app package /home/jbc/.config/obsidian/obsidian-1.1.9.asar
+2023-05-17 20:26:29 Checking for update using Github
+2023-05-17 20:26:30 Success.
+2023-05-17 20:26:30 Latest version is 1.2.8
+2023-05-17 20:26:30 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v1.2.8/obsidian-1.2.8.asar.gz
+2023-05-17 20:26:31 Verifying hash & signature. Size= 6033374
+2023-05-17 20:26:31 Saving file
+2023-05-17 20:26:31 Update complete.

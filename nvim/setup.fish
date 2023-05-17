@@ -1,4 +1,4 @@
-#!/bin/fish
+#!/nix/store/kbbr7asvg8bf3s0k3vkkw2s3c27fki47-fish-3.5.1/bin/fish
 
 set path ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 
