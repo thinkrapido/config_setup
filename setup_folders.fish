@@ -1,4 +1,4 @@
-#!/usr/bin/env /nix/store/kbbr7asvg8bf3s0k3vkkw2s3c27fki47-fish-3.5.1/bin/fish
+#!/usr/bin/env fish
 
 set config_folder  ~/.config/
 set archive_folder ~/Mothership/config/config
