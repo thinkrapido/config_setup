@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Spotify
+Icon=dummy
+Comment=Spotify Music
+Exec="dummy" %u
+Version=1.0
+Type=Application
+Categories=Internet;Music;
+Terminal=false

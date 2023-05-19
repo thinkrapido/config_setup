@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Firefox
+Icon=dummy
+Comment=Firefox Internet Browser
+Exec="dummy" %u
+Version=1.0
+Type=Application
+Categories=Internet;Browser;
+Terminal=false

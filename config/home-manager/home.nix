@@ -23,10 +23,10 @@
     #   echo "Hello, ${config.home.username}!"
     # '')
   home.packages = with pkgs; [
+      glibc
       gcc
       cmake
       ninja
-      thunderbird
       alacritty
       git
       fish
@@ -37,13 +37,17 @@
       htop
       btop
       tree
+      #insync-v3
+
+      thunderbird
+      firefox
+      google-chrome
       element-desktop
       signal-desktop
       discord
       vscode
       spotify
       obsidian
-      #insync-v3
   ];
 
   nixpkgs.overlays = [

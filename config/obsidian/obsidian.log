@@ -257,3 +257,8 @@
 2023-05-17 20:26:31 Verifying hash & signature. Size= 6033374
 2023-05-17 20:26:31 Saving file
 2023-05-17 20:26:31 Update complete.
+2023-05-18 21:58:37 Loading main app package /nix/store/09wm076wxckwq8q1vgbw9mdw0pjn9ln3-obsidian-1.2.8/share/obsidian/obsidian.asar
+2023-05-18 21:58:37 Checking for update using Github
+2023-05-18 21:58:37 Success.
+2023-05-18 21:58:37 Latest version is 1.2.8
+2023-05-18 21:58:37 App is up to date.
