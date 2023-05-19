@@ -1,3 +1,0 @@
-final: prev: {
-#    firefox = prev.firefox.override { nss = prev.nss_3_80; };
-}
