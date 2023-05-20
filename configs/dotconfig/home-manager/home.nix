@@ -37,8 +37,9 @@
       htop
       btop
       tree
-      killall
       hplip
+      killall
+      wget
       gnome-extension-manager
       #insync-v3
 
