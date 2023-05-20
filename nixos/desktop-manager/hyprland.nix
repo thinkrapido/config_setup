@@ -33,7 +33,7 @@ let
     }).defaultNix;
 
     user = import ../../config/user.nix;
-    # home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/master.tar.gz";
+    home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/master.tar.gz";
 in
 {
   environment.systemPackages = with pkgs; [
@@ -61,16 +61,13 @@ in
   imports = [
     hyprland.nixosModules.default
     (import "${home-manager}/nixos")
-    ../../pkgs/kitty/pkg.nix
-    ../../pkgs/waybar/pkg.nix
-    ../../pkgs/mako/pkg.nix
   ];
 
   programs.hyprland.enable = true;
   programs.xwayland.enable = true;
 
   environment.sessionVariables = rec {
-    i#GBM_BACKEND = "nvidia-drm";
+    #GBM_BACKEND = "nvidia-drm";
     __GL_GSYNC_ALLOWED = "0";
     __GL_VRR_ALLOWED = "0";
     WLR_DRM_NO_ATOMIC = "1";
