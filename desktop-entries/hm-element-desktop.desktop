@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Element
-Icon=dummy
-Comment=Element Chat
-Exec="dummy" %u
-Version=1.0
-Type=Application
-Categories=Internet;Chat;
-Terminal=false

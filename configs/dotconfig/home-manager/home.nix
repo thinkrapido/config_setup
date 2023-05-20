@@ -39,15 +39,15 @@
       tree
       #insync-v3
 
-      thunderbird
+#      thunderbird
       firefox
       google-chrome
       element-desktop
-      signal-desktop
+#      signal-desktop
       discord
-      vscode
+#      vscode
       spotify
-      obsidian
+#      obsidian
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage

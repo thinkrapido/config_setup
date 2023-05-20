@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Google Chrome
-Icon=dummy
-Comment=Google Chrome Internet Browser
-Exec="dummy" %u
-Version=1.0
-Type=Application
-Categories=Internet;Browser;
-Terminal=false

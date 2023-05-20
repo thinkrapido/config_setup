@@ -1,7 +1,7 @@
 #!/usr/bin/env fish
 
 set config_folder  ~/.config/
-set archive_folder ~/Mothership/config/config
+set archive_folder ~/Mothership/config/setup/dotconfig
 
 function setup
 
@@ -16,7 +16,7 @@ function setup
     end
 end
 
-for f in (find $archive_folder -maxdepth 1 -type d | sed '1 d; /.git/ d')
+for f in (find $archive_folder -maxdepth 1 -type l | sed '1 d; /.git/ d')
     setup $f
 end
 
