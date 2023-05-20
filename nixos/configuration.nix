@@ -3,11 +3,13 @@
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
 { config, pkgs, ... }:
-
+let
+  user = import ../config/user.nix;
+in
 {
   imports =
     [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
+      ../config/hardware-configuration.nix
     ];
 
   # Bootloader.
@@ -82,14 +84,7 @@
   # services.xserver.libinput.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.jbc = {
-    isNormalUser = true;
-    description = "Romeo Disca";
-    extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [
-      firefox
-    ];
-  };
+  users.users.${user.name} = user.config;
 
   # Allow unfree packages
   # nixpkgs.config.allowUnfree = true;
