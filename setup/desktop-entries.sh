@@ -10,7 +10,7 @@ function publish-desktop-entry() {
 
 }
 
-find  ~/.local/share/applications/ -name '*.desktop' -type l -exec rm {} \;
+find ~/.local/share/applications/ -xtype l -delete
 publish-desktop-entry firefox
 publish-desktop-entry google-chrome-stable google-chrome
 publish-desktop-entry spotify

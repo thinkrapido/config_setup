@@ -16,7 +16,12 @@ function setup
     end
 end
 
+function delete_broken_links
+    find $argv[1] -xtype l -delete
+end
+
 for f in (find $archive_folder -maxdepth 1 -type l | sed '1 d; /.git/ d')
     setup $f
 end
 
+delete_broken_links ~/.config/

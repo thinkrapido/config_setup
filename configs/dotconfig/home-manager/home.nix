@@ -37,17 +37,25 @@
       htop
       btop
       tree
+      killall
+      hplip
+      gnome-extension-manager
       #insync-v3
 
-#      thunderbird
+      # wm hyperland titus
+      hyprland
+      dunst hypr kitty nitrogen swaylock waybar rofi
+      # pipewire
+
+      thunderbird
       firefox
       google-chrome
       element-desktop
-#      signal-desktop
+      signal-desktop
       discord
-#      vscode
+      vscode
       spotify
-#      obsidian
+      obsidian
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
