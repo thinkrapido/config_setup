@@ -27,7 +27,6 @@
       gcc
       cmake
       ninja
-      alacritty
       git
       fish
       zellij
@@ -40,6 +39,7 @@
       hplip
       killall
       wget
+      alacritty
       gnome-extension-manager
       #insync-v3
 
