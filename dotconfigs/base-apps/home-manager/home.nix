@@ -41,6 +41,8 @@
       wget
       alacritty
       gnome-extension-manager
+      gnome.gnome-session
+      wlogout
       #insync-v3
 
       thunderbird
