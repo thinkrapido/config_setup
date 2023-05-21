@@ -43,11 +43,6 @@
       gnome-extension-manager
       #insync-v3
 
-      # wm hyperland titus
-      hyprland
-      dunst hypr kitty nitrogen swaylock waybar rofi
-      # pipewire
-
       thunderbird
       firefox
       google-chrome

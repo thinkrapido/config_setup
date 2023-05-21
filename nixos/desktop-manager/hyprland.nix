@@ -36,18 +36,31 @@ let
     home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/master.tar.gz";
 in
 {
+  services.xserver.displayManager.sddm.enable = true;
+
   environment.systemPackages = with pkgs; [
-    dbus-hyprland-environment
-    configure-gtk
+    # dbus-hyprland-environment
+    # configure-gtk
+    # wayland
+    # glib
+    # gnome3.adwaita-icon-theme
+    # grim
+    # wl-clipboard
+    # bemenu
+    # wlr-randr
+    # gnome.nautilus
+    # swaybg
+    polkit_gnome ffmpeg_5 
+pavucontrol xfce.thunar starship wf-recorder swaybg
+ffmpegthumbnailer xfce.tumbler playerctl
+ xfce.thunar-archive-plugin
+wlogout swaylock-effects sddm pamixer
+
+nerdfonts
+brightnessctl
     wayland
-    glib
-    gnome3.adwaita-icon-theme
-    grim
-    wl-clipboard
-    bemenu
-    wlr-randr
-    gnome.nautilus
-    swaybg
+    dunst hypr kitty nitrogen swaylock waybar rofi
+
   ];
 
   services.dbus.enable = true;
