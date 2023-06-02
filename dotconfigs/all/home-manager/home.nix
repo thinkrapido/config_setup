@@ -27,6 +27,8 @@
       gcc
       cmake
       ninja
+      unzip
+      zip
       git
       fish
       zellij
@@ -51,7 +53,7 @@
       element-desktop
       signal-desktop
       discord
-      vscode
+      #vscode
       spotify
       obsidian
   ];

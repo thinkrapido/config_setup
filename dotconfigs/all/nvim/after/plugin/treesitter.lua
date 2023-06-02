@@ -30,7 +30,7 @@ local function docs()
     end
 
     local doc = "help"
-    if string.find(contents, ", NixOS,") then
+    if string.find(contents, ", Ubuntu,") or string.find(contents, ", NixOS,") then
         doc = "vimdoc"
     end
 

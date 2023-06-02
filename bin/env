@@ -1,5 +1,9 @@
+export DISPLAY=:0
+export LIBGL_ALWAYS_INDIRECT=1
+
 export PATH=/home/jbc/Mothership/bin:$PATH
 
+[ -e /home/rodisca/.sdkman/bin/sdkman-init.sh ] && . /home/rodisca/.sdkman/bin/sdkman-init.sh
 
 function zj() {
     ZELLIJ_AUTO_ATTACH=1
