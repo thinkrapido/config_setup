@@ -23,8 +23,8 @@
     #   echo "Hello, ${config.home.username}!"
     # '')
   home.packages = with pkgs; [
-      glibc
-      gcc
+#      glibc
+#      gcc
       cmake
       ninja
       unzip
@@ -44,6 +44,7 @@
       alacritty
       gnome-extension-manager
       gnome.gnome-session
+      fd
       wlogout
       #insync-v3
 

@@ -1,0 +1,2 @@
+#!/bin/bash
+dir -1 *.png | while read line ; do convert -rotate 90 $line $line-1 ; mv $line-1 $line ; done

@@ -1,0 +1,4 @@
+#!/bin/bash
+echo scanning $1
+scanimage -d epsonds:net:192.168.0.73 --format png -o out.png
+mv out.png $1.png
