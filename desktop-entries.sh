@@ -6,7 +6,7 @@ function publish-desktop-entry() {
     local folder=`dirname $binary`
     local folder=`dirname $folder`
     local filename=${2:-$1}
-    ln -s $folder/share/applications/$filename.desktop $HOME/.local/share/applications/$filename.desktop
+    ln -sf $folder/share/applications/$filename.desktop $HOME/.local/share/applications/$filename.desktop
 
 }
 
@@ -20,5 +20,6 @@ publish-desktop-entry thunderbird
 publish-desktop-entry signal-desktop
 publish-desktop-entry obsidian
 publish-desktop-entry code
+publish-desktop-entry kitty
 
 

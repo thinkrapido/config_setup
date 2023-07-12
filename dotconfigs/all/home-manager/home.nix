@@ -23,8 +23,8 @@
     #   echo "Hello, ${config.home.username}!"
     # '')
   home.packages = with pkgs; [
-#      glibc
-#      gcc
+      glibc
+      gcc
       cmake
       ninja
       unzip
@@ -41,7 +41,8 @@
       hplip
       killall
       wget
-      alacritty
+#      alacritty
+#      kitty
       gnome-extension-manager
       gnome.gnome-session
       fd
@@ -54,7 +55,7 @@
       element-desktop
       signal-desktop
       discord
-      #vscode
+      vscode
       spotify
       obsidian
   ];
