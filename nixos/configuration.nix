@@ -55,17 +55,14 @@ in
   sound.enable = true;
   hardware.pulseaudio.enable = false;
   security.rtkit.enable = true;
-  services.pipewire = {
-    enable = true;
-    alsa.enable = true;
-    alsa.support32Bit = true;
-    pulse.enable = true;
-    # If you want to use JACK applications, uncomment this
-    #jack.enable = true;
-
-    # use the example session manager (no others are packaged yet so this is enabled by default,
-    # no need to redefine it in your config for now)
-    #media-session.enable = true;
+  services.jack = {
+    jackd.enable = true;
+    alsa = {
+      enable = false;
+    };
+    loopback = {
+      enable = true;
+    };
   };
 
   # Enable touchpad support (enabled default in most desktopManager).
@@ -73,6 +70,8 @@ in
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.${user.name} = user.config;
+  users.extraGroups.audio.members = [ "jbc" ];
+  users.extraUsers.jbc.extraGroups = [ "jackaudio" ];
 
   # Allow unfree packages
   # nixpkgs.config.allowUnfree = true;
@@ -82,6 +81,8 @@ in
   environment.systemPackages = with pkgs; [
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
+    plasma-pa
+    pulseaudioFull
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -125,4 +126,5 @@ in
       options = "--delete-older-than 7d";
     };
   };
+  hardware.bluetooth.enable = true;
 }

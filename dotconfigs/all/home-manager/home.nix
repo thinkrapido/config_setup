@@ -47,7 +47,8 @@
       gnome.gnome-session
       fd
       wlogout
-      #insync-v3
+      python312
+      #insync
 
       thunderbird
       firefox
