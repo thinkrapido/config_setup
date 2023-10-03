@@ -48,6 +48,8 @@
       fd
       wlogout
       python312
+      neofetch
+      autojump
       #insync
 
       thunderbird
@@ -92,8 +94,19 @@
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
+  programs.starship.enable = true;
   programs.wlogout.enable = true;
-  programs.nnn.enable = true;
+  programs.nnn = {
+    enable = true;
+    package = pkgs.nnn.override ({ withNerdIcons = true; });
+    bookmarks = {
+      w = "~/Work";
+      d = "~/Downloads";
+      m = "~/Mothership/config";
+      D = "~/Insync/romdisc@live.com/OneDrive/Dokumente/001 privat";
+      S = "~/Software";
+    };
+  };
   programs.sagemath.enable = true;
   programs.neovim = {
     enable = true;

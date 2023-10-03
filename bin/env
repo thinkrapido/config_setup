@@ -53,3 +53,5 @@ function conda() {
 
 [ -e /home/rodisca/.sdkman/bin/sdkman-init.sh ] && . /home/rodisca/.sdkman/bin/sdkman-init.sh
 
+eval "$(starship init bash)"
+
