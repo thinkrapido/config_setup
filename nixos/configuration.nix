@@ -70,8 +70,11 @@ in
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.${user.name} = user.config;
-  users.extraGroups.audio.members = [ "jbc" ];
-  users.extraUsers.jbc.extraGroups = [ "jackaudio" ];
+  users.extraGroups = { 
+  	audio.members = [ "${user.name}" ];
+	docker.members = [ "${user.name}" ];
+  };
+  users.extraUsers.${user.name}.extraGroups = [ "jackaudio" "docker" ];
 
   # Allow unfree packages
   # nixpkgs.config.allowUnfree = true;
@@ -84,6 +87,7 @@ in
     plasma-pa
     pulseaudioFull
   ];
+  virtualisation.docker.enable = true;
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
