@@ -41,7 +41,7 @@
       hplip
       killall
       wget
-#      alacritty
+      alacritty
 #      kitty
       gnome-extension-manager
       gnome.gnome-session

@@ -14,10 +14,15 @@ in
       ../config/desktop-manager.nix
     ];
 
+  users = user.users;
+
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
   boot.loader.efi.efiSysMountPoint = "/boot/efi";
+
+  # Allow unfree packages
+  nixpkgs.config.allowUnfree = true;
 
   networking.hostName = "nixos-${user.name}"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -29,56 +34,6 @@ in
   # Enable networking
   networking.networkmanager.enable = true;
 
-  # Set your time zone.
-  time.timeZone = "Europe/Berlin";
-
-  # Select internationalisation properties.
-  i18n.defaultLocale = "en_US.UTF-8";
-
-  i18n.extraLocaleSettings = {
-    LC_ADDRESS = "de_DE.UTF-8";
-    LC_IDENTIFICATION = "de_DE.UTF-8";
-    LC_MEASUREMENT = "de_DE.UTF-8";
-    LC_MONETARY = "de_DE.UTF-8";
-    LC_NAME = "de_DE.UTF-8";
-    LC_NUMERIC = "de_DE.UTF-8";
-    LC_PAPER = "de_DE.UTF-8";
-    LC_TELEPHONE = "de_DE.UTF-8";
-    LC_TIME = "de_DE.UTF-8";
-  };
-
-  # Enable CUPS to print documents.
-  services.printing.enable = true;
-  services.printing.drivers = with pkgs; [ hplip ];
-
-  # Enable sound with pipewire.
-  sound.enable = true;
-  hardware.pulseaudio.enable = false;
-  security.rtkit.enable = true;
-  services.jack = {
-    jackd.enable = true;
-    alsa = {
-      enable = false;
-    };
-    loopback = {
-      enable = true;
-    };
-  };
-
-  # Enable touchpad support (enabled default in most desktopManager).
-  # services.xserver.libinput.enable = true;
-
-  # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.${user.name} = user.config;
-  users.extraGroups = { 
-  	audio.members = [ "${user.name}" ];
-	docker.members = [ "${user.name}" ];
-  };
-  users.extraUsers.${user.name}.extraGroups = [ "jackaudio" "docker" ];
-
-  # Allow unfree packages
-  # nixpkgs.config.allowUnfree = true;
-
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
@@ -86,8 +41,15 @@ in
   #  wget
     plasma-pa
     pulseaudioFull
+    (nerdfonts.override { fonts = user.nerdfonts; })
+    picom
+    xdg-desktop-portal-gtk
   ];
   virtualisation.docker.enable = true;
+  virtualisation.virtualbox.host.enable = true;
+  virtualisation.virtualbox.host.enableExtensionPack = true;
+  virtualisation.virtualbox.guest.enable = true;
+  virtualisation.virtualbox.guest.x11 = true;
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
@@ -130,11 +92,4 @@ in
       options = "--delete-older-than 7d";
     };
   };
-  hardware.bluetooth.enable = true;
-
-  fonts.fontconfig.enable = true;
-  home.packages = [
-    (pkgs.nerdfonts.override { fonts = [ "Lekton" ]; })
-  ];
-
 }
