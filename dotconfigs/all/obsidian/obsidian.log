@@ -1177,3 +1177,87 @@
 2023-10-03 05:10:50 Success.
 2023-10-03 05:10:50 Latest version is 1.4.14
 2023-10-03 05:10:50 App is up to date.
+2023-10-04 08:19:06 Loading main app package /nix/store/vcr8cicxsivqlicnsny953xy6sq8kj2v-obsidian-1.4.14/share/obsidian/obsidian.asar
+2023-10-04 08:19:07 Checking for update using Github
+2023-10-04 08:19:07 Success.
+2023-10-04 08:19:07 Latest version is 1.4.14
+2023-10-04 08:19:07 App is up to date.
+2023-10-04 09:18:21 Checking for update using Github
+2023-10-04 09:18:21 Success.
+2023-10-04 09:18:21 Latest version is 1.4.14
+2023-10-04 09:18:21 App is up to date.
+2023-10-04 10:18:21 Checking for update using Github
+2023-10-04 10:18:21 Success.
+2023-10-04 10:18:21 Latest version is 1.4.14
+2023-10-04 10:18:21 App is up to date.
+2023-10-04 11:18:21 Checking for update using Github
+2023-10-04 11:18:21 Success.
+2023-10-04 11:18:21 Latest version is 1.4.14
+2023-10-04 11:18:21 App is up to date.
+2023-10-04 12:18:21 Checking for update using Github
+2023-10-04 12:18:22 Success.
+2023-10-04 12:18:22 Latest version is 1.4.14
+2023-10-04 12:18:22 App is up to date.
+2023-10-04 13:18:22 Checking for update using Github
+2023-10-04 13:18:22 Success.
+2023-10-04 13:18:22 Latest version is 1.4.14
+2023-10-04 13:18:22 App is up to date.
+2023-10-04 14:18:22 Checking for update using Github
+2023-10-04 14:18:22 Success.
+2023-10-04 14:18:22 Latest version is 1.4.14
+2023-10-04 14:18:22 App is up to date.
+2023-10-04 17:21:40 Checking for update using Github
+2023-10-04 17:21:40 Success.
+2023-10-04 17:21:40 Latest version is 1.4.14
+2023-10-04 17:21:40 App is up to date.
+2023-10-04 18:21:40 Checking for update using Github
+2023-10-04 18:21:40 Success.
+2023-10-04 18:21:40 Latest version is 1.4.14
+2023-10-04 18:21:40 App is up to date.
+2023-10-06 10:15:14 Loading main app package /nix/store/vcr8cicxsivqlicnsny953xy6sq8kj2v-obsidian-1.4.14/share/obsidian/obsidian.asar
+2023-10-06 10:15:15 Checking for update using Github
+2023-10-06 10:15:15 Success.
+2023-10-06 10:15:15 Latest version is 1.4.14
+2023-10-06 10:15:15 App is up to date.
+2023-10-06 11:14:24 Checking for update using Github
+2023-10-06 11:14:25 Success.
+2023-10-06 11:14:25 Latest version is 1.4.14
+2023-10-06 11:14:25 App is up to date.
+2023-10-06 12:14:25 Checking for update using Github
+2023-10-06 12:14:25 Success.
+2023-10-06 12:14:25 Latest version is 1.4.14
+2023-10-06 12:14:25 App is up to date.
+2023-10-06 13:14:25 Checking for update using Github
+2023-10-06 13:14:25 Success.
+2023-10-06 13:14:25 Latest version is 1.4.14
+2023-10-06 13:14:25 App is up to date.
+2023-10-07 08:48:46 Loading main app package /nix/store/vcr8cicxsivqlicnsny953xy6sq8kj2v-obsidian-1.4.14/share/obsidian/obsidian.asar
+2023-10-07 08:48:46 Checking for update using Github
+2023-10-07 08:48:46 Success.
+2023-10-07 08:48:46 Latest version is 1.4.14
+2023-10-07 08:48:46 App is up to date.
+2023-10-07 09:48:58 Checking for update using Github
+2023-10-07 09:48:59 Success.
+2023-10-07 09:48:59 Latest version is 1.4.14
+2023-10-07 09:48:59 App is up to date.
+2023-10-07 09:50:52 Loading main app package /nix/store/vcr8cicxsivqlicnsny953xy6sq8kj2v-obsidian-1.4.14/share/obsidian/obsidian.asar
+2023-10-07 09:50:52 Checking for update using Github
+2023-10-07 09:50:52 Success.
+2023-10-07 09:50:52 Latest version is 1.4.14
+2023-10-07 09:50:52 App is up to date.
+2023-10-14 10:51:42 Loading main app package /nix/store/vcr8cicxsivqlicnsny953xy6sq8kj2v-obsidian-1.4.14/share/obsidian/obsidian.asar
+2023-10-14 10:51:42 Checking for update using Github
+2023-10-14 10:51:42 Success.
+2023-10-14 10:51:42 Latest version is 1.4.16
+2023-10-14 10:51:42 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v1.4.16/obsidian-1.4.16.asar.gz
+2023-10-14 10:51:43 Verifying hash & signature. Size= 8394471
+2023-10-14 10:51:43 Saving file
+2023-10-14 10:51:43 Update complete.
+2023-10-14 11:51:42 Checking for update using Github
+2023-10-14 11:51:42 Success.
+2023-10-14 11:51:42 Latest version is 1.4.16
+2023-10-14 11:51:42 An update is already downloaded.
+2023-10-14 12:51:42 Checking for update using Github
+2023-10-14 12:51:42 Success.
+2023-10-14 12:51:42 Latest version is 1.4.16
+2023-10-14 12:51:42 An update is already downloaded.
