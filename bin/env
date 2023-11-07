@@ -1,7 +1,8 @@
 export DISPLAY=:0
 export LIBGL_ALWAYS_INDIRECT=1
 
-export PATH=/home/jbc/Mothership/bin:$PATH
+export PATH=$HOME/Mothership/bin:$PATH
+export PATH=$HOME/.cargo/bin:$PATH
 
 export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}

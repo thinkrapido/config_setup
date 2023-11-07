@@ -43,13 +43,11 @@ in
 #    pulseaudioFull
     (nerdfonts.override { fonts = user.nerdfonts; })
     picom
-    xdg-desktop-portal-gtk
+    wlogout
+    networkmanagerapplet
   ];
+
   virtualisation.docker.enable = true;
-  virtualisation.virtualbox.host.enable = true;
-  virtualisation.virtualbox.host.enableExtensionPack = true;
-  virtualisation.virtualbox.guest.enable = true;
-  virtualisation.virtualbox.guest.x11 = true;
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.

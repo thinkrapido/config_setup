@@ -3,7 +3,7 @@
 {
     imports = [
         ../nixos/desktop-manager/base.nix
-#        ../nixos/desktop-manager/touchpad.nix
+        ../nixos/desktop-manager/touchpad.nix
         ../nixos/desktop-manager/timezone.nix
         ../nixos/desktop-manager/i18n.nix
         ../nixos/desktop-manager/fonts.nix
