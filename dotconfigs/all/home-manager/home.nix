@@ -50,7 +50,7 @@
       python312
       neofetch
       autojump
-      #insync
+      insync
 
       thunderbird
       firefox
@@ -63,6 +63,7 @@
       obsidian
       godot
       qemu
+      brave
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
