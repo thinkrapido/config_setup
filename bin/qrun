@@ -1,0 +1,2 @@
+qemu-system-x86_64 -name $1 -machine q35,accel=kvm -cpu host -enable-kvm -accel kvm,thread=multi -smp -boot menu=on -audio pa,model=sb16 -serial stdio -device VGA -drive raw,index=2,file=$2
+
