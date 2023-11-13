@@ -1261,6 +1261,7 @@
 2023-10-14 12:51:42 Success.
 2023-10-14 12:51:42 Latest version is 1.4.16
 2023-10-14 12:51:42 An update is already downloaded.
+<<<<<<< Updated upstream
 2023-11-09 02:53:05 Loading updated app package /home/jbc/.config/obsidian/obsidian-1.4.16.asar
 2023-11-09 02:53:06 Checking for update using Github
 2023-11-09 02:53:06 Success.
@@ -1271,3 +1272,40 @@
 2023-11-09 02:53:23 Success.
 2023-11-09 02:53:23 Latest version is 1.4.16
 2023-11-09 02:53:23 App is up to date.
+=======
+2023-10-15 06:11:52 Loading updated app package /home/jbc/.config/obsidian/obsidian-1.4.16.asar
+2023-10-15 06:11:52 Checking for update using Github
+2023-10-15 06:11:53 Success.
+2023-10-15 06:11:53 Latest version is 1.4.16
+2023-10-15 06:11:53 App is up to date.
+2023-10-15 07:11:52 Checking for update using Github
+2023-10-15 07:11:52 Success.
+2023-10-15 07:11:52 Latest version is 1.4.16
+2023-10-15 07:11:52 App is up to date.
+2023-10-15 08:11:52 Checking for update using Github
+2023-10-15 08:11:52 Success.
+2023-10-15 08:11:52 Latest version is 1.4.16
+2023-10-15 08:11:52 App is up to date.
+2023-10-15 09:11:52 Checking for update using Github
+2023-10-15 09:11:53 Success.
+2023-10-15 09:11:53 Latest version is 1.4.16
+2023-10-15 09:11:53 App is up to date.
+2023-10-15 13:11:40 Checking for update using Github
+2023-10-15 13:11:40 Success.
+2023-10-15 13:11:40 Latest version is 1.4.16
+2023-10-15 13:11:40 App is up to date.
+2023-10-28 03:14:50 Loading updated app package /home/jbc/.config/obsidian/obsidian-1.4.16.asar
+2023-10-28 03:14:51 Checking for update using Github
+2023-10-28 03:14:51 Success.
+2023-10-28 03:14:51 Latest version is 1.4.16
+2023-10-28 03:14:51 App is up to date.
+2023-11-11 03:46:06 Loading main app package /nix/store/4v9spfq2i3qh1bqjrdwvp0dvvrfp6xb2-obsidian-1.4.16/share/obsidian/obsidian.asar
+2023-11-11 03:46:06 Checking for update using Github
+2023-11-11 03:46:07 Success.
+2023-11-11 03:46:07 Latest version is 1.4.16
+2023-11-11 03:46:07 App is up to date.
+2023-11-11 04:46:05 Checking for update using Github
+2023-11-11 04:46:05 Success.
+2023-11-11 04:46:05 Latest version is 1.4.16
+2023-11-11 04:46:05 App is up to date.
+>>>>>>> Stashed changes

@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 2023/11/09-03:53:24.175 41a9 Reusing MANIFEST /home/jbc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
 2023/11/09-03:53:24.175 41a9 Recovering log #103
 2023/11/09-03:53:24.209 41a9 Reusing old log /home/jbc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000103.log 
@@ -34,3 +35,30 @@
 2023/11/09-04:14:46.580 455c Delete type=2 #114
 2023/11/09-04:14:46.580 455c Delete type=2 #115
 2023/11/09-04:14:46.580 455c Delete type=2 #117
+=======
+2023/11/11-04:46:07.873 172a7 Reusing MANIFEST /home/jbc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/11-04:46:07.874 172a7 Recovering log #108
+2023/11/11-04:46:07.897 172a7 Reusing old log /home/jbc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000108.log 
+2023/11/11-04:46:11.455 172a8 Level-0 table #114: started
+2023/11/11-04:46:11.478 172a8 Level-0 table #114: 1024424 bytes OK
+2023/11/11-04:46:11.485 172a8 Delete type=0 #108
+2023/11/11-04:46:11.853 172a7 Compacting 1@1 + 2@2 files
+2023/11/11-04:46:11.949 172a7 Generated table #115@1: 10515 keys, 2178316 bytes
+2023/11/11-04:46:11.963 172a7 Generated table #116@1: 670 keys, 249054 bytes
+2023/11/11-04:46:11.963 172a7 Compacted 1@1 + 2@2 files => 2427370 bytes
+2023/11/11-04:46:11.968 172a7 compacted to: files[ 0 0 2 0 0 0 0 ]
+2023/11/11-04:46:11.968 172a7 Delete type=2 #114
+2023/11/11-04:46:11.968 172a7 Delete type=2 #110
+2023/11/11-04:46:11.968 172a7 Delete type=2 #111
+2023/11/11-04:46:15.385 172a7 Level-0 table #118: started
+2023/11/11-04:46:15.467 172a7 Level-0 table #118: 951658 bytes OK
+2023/11/11-04:46:15.480 172a7 Delete type=0 #113
+2023/11/11-04:46:15.719 172d3 Compacting 1@1 + 2@2 files
+2023/11/11-04:46:15.822 172d3 Generated table #119@1: 10509 keys, 2173244 bytes
+2023/11/11-04:46:15.852 172d3 Generated table #120@1: 678 keys, 262370 bytes
+2023/11/11-04:46:15.852 172d3 Compacted 1@1 + 2@2 files => 2435614 bytes
+2023/11/11-04:46:15.858 172d3 compacted to: files[ 0 0 2 0 0 0 0 ]
+2023/11/11-04:46:15.859 172d3 Delete type=2 #115
+2023/11/11-04:46:15.859 172d3 Delete type=2 #116
+2023/11/11-04:46:15.859 172d3 Delete type=2 #118
+>>>>>>> Stashed changes

@@ -1,3 +1,12 @@
+<<<<<<< Updated upstream
 2023/11/09-03:53:08.024 3f1d Reusing MANIFEST /home/jbc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
 2023/11/09-03:53:08.024 3f1d Recovering log #103
 2023/11/09-03:53:08.031 3f1d Reusing old log /home/jbc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000103.log 
+=======
+2023/10/28-05:14:52.002 4dec Reusing MANIFEST /home/jbc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/28-05:14:52.002 4dec Recovering log #108
+2023/10/28-05:14:52.016 4dec Reusing old log /home/jbc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000108.log 
+2023/10/28-05:14:52.016 4dec Delete type=2 #105
+2023/10/28-05:14:52.016 4dec Delete type=2 #109
+2023/10/28-05:14:52.016 4dec Delete type=2 #106
+>>>>>>> Stashed changes

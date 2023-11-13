@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+base=`basename $1`
+dir=`dirname $1`
+
+output=`solana-keygen new --outfile $dir/$1.json`
+
+pubkey=`echo "$output" | grep pubkey | awk '{ print $2 }'`
+
+echo name: $base > $1.hocon
+
+echo pubkey: $pubkey >> $1.hocon
+
+seed=`echo "$output" | grep -A1 'Save this seed phrase and your BIP39 passphrase to recover your new keypair:' | tail -1`
+
+echo seed: $seed >> $1.hocon
+
