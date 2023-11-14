@@ -1,2 +1,1 @@
-qemu-system-x86_64 -name $1 -machine q35,accel=kvm -cpu host -enable-kvm -accel kvm,thread=multi -smp 8 -audio pa,model=sb16 -serial stdio -device VGA -boot d $3 $2
-
+qemu-system-x86_64 -name $1 -machine q35,accel=kvm -m 2G -cpu host -enable-kvm -smp 2 -hda $2 -cdrom $3

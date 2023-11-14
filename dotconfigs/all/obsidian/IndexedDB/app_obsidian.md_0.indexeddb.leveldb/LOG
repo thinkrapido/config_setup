@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 2023/11/09-03:53:24.175 41a9 Reusing MANIFEST /home/jbc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
 2023/11/09-03:53:24.175 41a9 Recovering log #103
@@ -62,3 +63,8 @@
 2023/11/11-04:46:15.859 172d3 Delete type=2 #116
 2023/11/11-04:46:15.859 172d3 Delete type=2 #118
 >>>>>>> Stashed changes
+=======
+2023/11/14-16:47:09.430 cc3 Reusing MANIFEST /home/jbc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/14-16:47:09.430 cc3 Recovering log #116
+2023/11/14-16:47:09.438 cc3 Reusing old log /home/jbc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000116.log 
+>>>>>>> 7ae9b28 (qemu optimization)

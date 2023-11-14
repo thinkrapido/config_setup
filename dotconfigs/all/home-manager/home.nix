@@ -6,6 +6,7 @@
   # manage.
   home.username = builtins.getEnv "USER";
   home.homeDirectory = builtins.getEnv "HOME";
+  #home.enableNixpkgsReleaseCheck = false;
 
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
@@ -42,7 +43,6 @@
       killall
       wget
       alacritty
-#      kitty
       gnome-extension-manager
       gnome.gnome-session
       fd
@@ -109,7 +109,7 @@
       S = "~/Software";
     };
   };
-  programs.sagemath.enable = true;
+  #programs.sagemath.enable = true;
   programs.neovim = {
     enable = true;
     defaultEditor = true;
