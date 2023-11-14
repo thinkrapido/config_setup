@@ -61,13 +61,8 @@
       vscode
       spotify
       obsidian
-<<<<<<< Updated upstream
-      godot
       qemu
       brave
-=======
-      godot_4
->>>>>>> Stashed changes
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage

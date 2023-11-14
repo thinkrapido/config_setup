@@ -1,13 +1,9 @@
 export DISPLAY=:0
 export LIBGL_ALWAYS_INDIRECT=1
 
-<<<<<<< Updated upstream
 export PATH=$HOME/Mothership/bin:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
-=======
-export PATH=/home/jbc/Mothership/bin:$PATH
-export PATH="/home/jbc/.local/share/solana/install/active_release/bin:$PATH"
->>>>>>> Stashed changes
+export PATH=$HOME/.local/share/solana/install/active_release/bin:$PATH
 
 export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
@@ -44,5 +40,5 @@ completion
 
 [ -e ~/.no-zellij ] || zj
 
-[ -e /home/rodisca/.sdkman/bin/sdkman-init.sh ] && . /home/rodisca/.sdkman/bin/sdkman-init.sh
+[ -e $HOME/.sdkman/bin/sdkman-init.sh ] && . $HOME/.sdkman/bin/sdkman-init.sh
 
