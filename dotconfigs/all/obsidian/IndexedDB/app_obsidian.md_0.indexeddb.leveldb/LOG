@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 2023/11/09-03:53:24.175 41a9 Reusing MANIFEST /home/jbc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
@@ -68,3 +69,22 @@
 2023/11/14-16:47:09.430 cc3 Recovering log #116
 2023/11/14-16:47:09.438 cc3 Reusing old log /home/jbc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000116.log 
 >>>>>>> 7ae9b28 (qemu optimization)
+=======
+2023/11/14-16:45:57.428 b13 Reusing MANIFEST /home/jbc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/14-16:45:57.429 b13 Recovering log #116
+2023/11/14-16:45:57.433 b13 Level-0 table #121: started
+2023/11/14-16:45:57.438 b13 Level-0 table #121: 298747 bytes OK
+2023/11/14-16:45:57.438 b13 Recovering log #117
+2023/11/14-16:45:57.467 b13 Reusing old log /home/jbc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000117.log 
+2023/11/14-16:45:57.469 b13 Delete type=0 #116
+2023/11/14-16:45:57.469 b13 Delete type=2 #120
+2023/11/14-16:45:57.506 b14 Moved #121 to level-1 298747 bytes OK: files[ 0 1 2 0 0 0 0 ]
+2023/11/14-16:45:57.511 b14 Compacting 1@1 + 2@2 files
+2023/11/14-16:45:57.540 b14 Generated table #122@1: 10586 keys, 2176037 bytes
+2023/11/14-16:45:57.549 b14 Generated table #123@1: 704 keys, 296251 bytes
+2023/11/14-16:45:57.549 b14 Compacted 1@1 + 2@2 files => 2472288 bytes
+2023/11/14-16:45:57.552 b14 compacted to: files[ 0 0 2 0 0 0 0 ]
+2023/11/14-16:45:57.552 b14 Delete type=2 #118
+2023/11/14-16:45:57.552 b14 Delete type=2 #119
+2023/11/14-16:45:57.552 b14 Delete type=2 #121
+>>>>>>> Stashed changes

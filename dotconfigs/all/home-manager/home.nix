@@ -50,7 +50,7 @@
       python312
       neofetch
       autojump
-      insync
+      #insync
 
       thunderbird
       firefox

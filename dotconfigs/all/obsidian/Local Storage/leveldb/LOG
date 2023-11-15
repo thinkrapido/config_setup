@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 2023/11/09-03:53:23.204 41a8 Reusing MANIFEST /home/jbc/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
@@ -13,3 +14,8 @@
 2023/11/14-16:47:07.251 cc2 Recovering log #4
 2023/11/14-16:47:07.251 cc2 Reusing old log /home/jbc/.config/obsidian/Local Storage/leveldb/000004.log 
 >>>>>>> 7ae9b28 (qemu optimization)
+=======
+2023/11/14-16:45:56.392 b13 Reusing MANIFEST /home/jbc/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
+2023/11/14-16:45:56.393 b13 Recovering log #4
+2023/11/14-16:45:56.402 b13 Reusing old log /home/jbc/.config/obsidian/Local Storage/leveldb/000004.log 
+>>>>>>> Stashed changes

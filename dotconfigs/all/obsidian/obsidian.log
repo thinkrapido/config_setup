@@ -1310,6 +1310,7 @@
 2023-11-11 04:46:05 Latest version is 1.4.16
 2023-11-11 04:46:05 App is up to date.
 >>>>>>> Stashed changes
+<<<<<<< Updated upstream
 =======
 2023-11-14 15:47:06 Loading updated app package /home/jbc/.config/obsidian/obsidian-1.4.16.asar
 2023-11-14 15:47:07 Checking for update using Github
@@ -1317,3 +1318,10 @@
 2023-11-14 15:47:07 Latest version is 1.4.16
 2023-11-14 15:47:07 App is up to date.
 >>>>>>> 7ae9b28 (qemu optimization)
+=======
+2023-11-14 15:45:56 Loading main app package /nix/store/4v9spfq2i3qh1bqjrdwvp0dvvrfp6xb2-obsidian-1.4.16/share/obsidian/obsidian.asar
+2023-11-14 15:45:56 Checking for update using Github
+2023-11-14 15:45:56 Success.
+2023-11-14 15:45:56 Latest version is 1.4.16
+2023-11-14 15:45:56 App is up to date.
+>>>>>>> Stashed changes
