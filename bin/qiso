@@ -1,1 +1,5 @@
-qemu-system-x86_64 -name $1 -machine q35,accel=kvm -m 2G -cpu host -enable-kvm -smp 2 -hda $2 -cdrom $3
+name=$1
+shift
+image=$1
+shift
+qrun "$1" "$2" -cdrom $@
