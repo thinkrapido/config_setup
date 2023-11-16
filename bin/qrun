@@ -2,4 +2,4 @@ name=$1
 shift
 image=$1
 shift
-qemu-system-x86_64 -name "$name" -machine q35,accel=kvm -m 2G -cpu host -enable-kvm -smp 2 -hdc "$image" $@
+qbase "$name" -hdc "$image" $@
