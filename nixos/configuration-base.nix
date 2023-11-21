@@ -90,4 +90,5 @@ in
       options = "--delete-older-than 7d";
     };
   };
+  hardware.mwProCapture.enable = true;
 }
