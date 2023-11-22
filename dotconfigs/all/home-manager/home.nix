@@ -1,11 +1,11 @@
 
 { config, pkgs, ... }:
 
-{
+rec {
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   home.username = builtins.getEnv "USER";
-  home.homeDirectory = builtins.getEnv "HOME";
+  home.homeDirectory = /home/${home.username};
   #home.enableNixpkgsReleaseCheck = false;
 
   # This value determines the Home Manager release that your configuration is
