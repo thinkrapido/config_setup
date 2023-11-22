@@ -15,7 +15,6 @@
     system = "x86_64-linux";
     lib = nixpkgs.lib;
     username = "$USER";
-    nixpkgsUnfree = import nixpkgs { config.allowUnfree = true; };
   in {
     nixosConfigurations.desktop = lib.nixosSystem {
       inherit system;

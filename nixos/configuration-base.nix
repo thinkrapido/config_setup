@@ -4,12 +4,14 @@
 
 { config, pkgs, ... }:
 let
-  user = import ../config/user.nix;
+  userConfigs = import ../config/user.nix;
+  inherit (userConfigs.root) initialUser;
+  user = userConfigs.${initialUser};
 in
 {
   imports =
     [ # Include the results of the hardware scan.
-      ../config/hardware-configuration.nix
+      /etc/nixos/hardware-configuration.nix
 
       ../config/desktop-manager.nix
     ];
