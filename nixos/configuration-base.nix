@@ -60,7 +60,10 @@ in
   # };
 
   # List services that you want to enable:
-
+  services.clamav = {
+    daemon.enable = true;
+    updater.enable = true;
+  };
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
 
