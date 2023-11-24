@@ -62,6 +62,7 @@ rec {
       qemu
       brave
       cryptomator
+      gh
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
