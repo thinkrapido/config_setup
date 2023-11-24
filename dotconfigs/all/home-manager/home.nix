@@ -25,8 +25,6 @@ rec {
     # '')
   home.packages = with pkgs; [
       glibc
-      gcc
-      cmake
       ninja
       unzip
       zip
