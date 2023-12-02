@@ -2,6 +2,11 @@
 { config, pkgs, ... }:
 
 rec {
+
+  imports = [ ./configurations/nix-insync-portable/home-manager-module.nix ];
+  services.insync-headless.enable = true;
+
+
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   home.username = builtins.getEnv "USER";
@@ -49,6 +54,7 @@ rec {
       neofetch
       autojump
       #insync
+      distrobox
 
       thunderbird
       firefox

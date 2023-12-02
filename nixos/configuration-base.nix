@@ -72,6 +72,7 @@ in
   networking.firewall.allowedUDPPorts = [ 161 162 9100 ];
   # Or disable the firewall altogether.
   #networking.firewall.enable = false;
+  services.flatpak.enable = true;
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
