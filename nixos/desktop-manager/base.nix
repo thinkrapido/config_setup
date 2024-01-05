@@ -8,6 +8,8 @@
   services.xserver = {
     layout = "us";
     xkbVariant = "";
+    desktopManager.xterm.enable = true;
+    displayManager.defaultSession = "gnome";
   };
   hardware.opengl.enable = true;
 }

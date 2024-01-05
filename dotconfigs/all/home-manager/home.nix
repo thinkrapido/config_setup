@@ -3,7 +3,7 @@
 
 rec {
 
-  imports = [ ./configurations/nix-insync-portable/home-manager-module.nix ];
+  imports = [ ./insync/home-manager-module.nix ];
   services.insync-headless.enable = true;
 
 
