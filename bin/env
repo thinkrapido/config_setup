@@ -43,3 +43,5 @@ completion
 [ -e $HOME/.sdkman/bin/sdkman-init.sh ] && . $HOME/.sdkman/bin/sdkman-init.sh
 
 eval "$(starship init bash)"
+
+command -v one 1>/dev/null && ps -A | grep rclone 1>/dev/null || one

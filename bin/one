@@ -1,0 +1,1 @@
+command -v rclone 1>/dev/null && rclone --vfs-cache-mode writes mount OneDrive:Dokumente /home/jbc/OneDrive/Dokumente &

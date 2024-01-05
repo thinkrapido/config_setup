@@ -3,10 +3,6 @@
 
 rec {
 
-  # imports = [ ./insync/home-manager-module.nix ];
-  # services.insync-headless.enable = true;
-
-
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   home.username = builtins.getEnv "USER";
@@ -54,11 +50,10 @@ rec {
       python312
       neofetch
       autojump
-      insync
       distrobox
       waybar
       rofi
-
+      rclone
       thunderbird
       firefox
       google-chrome
