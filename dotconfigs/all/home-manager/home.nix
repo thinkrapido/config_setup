@@ -3,8 +3,8 @@
 
 rec {
 
-  imports = [ ./insync/home-manager-module.nix ];
-  services.insync-headless.enable = true;
+  # imports = [ ./insync/home-manager-module.nix ];
+  # services.insync-headless.enable = true;
 
 
   # Home Manager needs a bit of information about you and the paths it should
@@ -46,6 +46,7 @@ rec {
       killall
       wget
       alacritty
+      kitty
       gnome-extension-manager
       gnome.gnome-session
       fd
@@ -53,8 +54,10 @@ rec {
       python312
       neofetch
       autojump
-      #insync
+      insync
       distrobox
+      waybar
+      rofi
 
       thunderbird
       firefox

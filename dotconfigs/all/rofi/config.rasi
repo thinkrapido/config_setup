@@ -1,2 +1,1 @@
-@theme "/nix/store/k85vc676dgi5hn9hxxwzhnwc3bg9ryj9-rofi-1.7.5+wayland1/share/rofi/themes/sidebar.rasi"
-@theme "/home/jbc/Mothership/config/dotconfigs/all/rofi/sidebar.rasi"
+@theme "/home/jbc/.config/Mothership/config/dotconfigs/all/rofi/sidebar.rasi"
