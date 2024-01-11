@@ -62,11 +62,11 @@ rec {
       discord
       vscode
       spotify
-      obsidian
       qemu
       brave
       cryptomator
       gh
+      okular
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage

@@ -1,26 +1,36 @@
-2023/11/16-15:01:29.014 2c4c Reusing MANIFEST /home/jbc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2023/11/16-15:01:29.014 2c4c Recovering log #117
-2023/11/16-15:01:29.045 2c4c Reusing old log /home/jbc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000117.log 
-2023/11/16-15:01:29.045 2c4c Delete type=0 #116
-2023/11/16-15:02:35.976 2c77 Level-0 table #126: started
-2023/11/16-15:02:36.029 2c77 Level-0 table #126: 1074087 bytes OK
-2023/11/16-15:02:36.038 2c77 Delete type=0 #117
-2023/11/16-15:04:18.383 2c77 Compacting 1@1 + 2@2 files
-2023/11/16-15:04:18.455 2c77 Generated table #127@1: 10591 keys, 2173629 bytes
-2023/11/16-15:04:18.461 2c77 Generated table #128@1: 681 keys, 265037 bytes
-2023/11/16-15:04:18.461 2c77 Compacted 1@1 + 2@2 files => 2438666 bytes
-2023/11/16-15:04:18.463 2c77 compacted to: files[ 0 0 2 0 0 0 0 ]
-2023/11/16-15:04:18.463 2c77 Delete type=2 #126
-2023/11/16-15:04:18.463 2c77 Delete type=2 #122
-2023/11/16-15:04:18.463 2c77 Delete type=2 #123
-2023/11/16-15:27:54.249 2c4c Level-0 table #130: started
-2023/11/16-15:27:54.262 2c4c Level-0 table #130: 949622 bytes OK
-2023/11/16-15:27:54.265 2c4c Delete type=0 #125
-2023/11/16-15:33:29.643 2c4c Compacting 1@1 + 2@2 files
-2023/11/16-15:33:29.692 2c4c Generated table #131@1: 10606 keys, 2175078 bytes
-2023/11/16-15:33:29.698 2c4c Generated table #132@1: 693 keys, 279049 bytes
-2023/11/16-15:33:29.698 2c4c Compacted 1@1 + 2@2 files => 2454127 bytes
-2023/11/16-15:33:29.700 2c4c compacted to: files[ 0 0 2 0 0 0 0 ]
-2023/11/16-15:33:29.700 2c4c Delete type=2 #128
-2023/11/16-15:33:29.701 2c4c Delete type=2 #130
-2023/11/16-15:33:29.701 2c4c Delete type=2 #127
+2024/01/05-20:31:59.457 4eb6 Reusing MANIFEST /home/jbc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2024/01/05-20:31:59.458 4eb6 Recovering log #134
+2024/01/05-20:31:59.505 4eb6 Reusing old log /home/jbc/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000134.log 
+2024/01/05-20:50:30.349 5099 Level-0 table #140: started
+2024/01/05-20:50:30.399 5099 Level-0 table #140: 1078842 bytes OK
+2024/01/05-20:50:30.417 5099 Delete type=0 #134
+2024/01/05-20:52:00.012 4eb5 Compacting 1@1 + 2@2 files
+2024/01/05-20:52:00.168 4eb5 Generated table #141@1: 10616 keys, 2174693 bytes
+2024/01/05-20:52:00.208 4eb5 Generated table #142@1: 3777 keys, 1219763 bytes
+2024/01/05-20:52:00.208 4eb5 Compacted 1@1 + 2@2 files => 3394456 bytes
+2024/01/05-20:52:00.221 4eb5 compacted to: files[ 0 0 2 0 0 0 0 ]
+2024/01/05-20:52:00.221 4eb5 Delete type=2 #136
+2024/01/05-20:52:00.221 4eb5 Delete type=2 #140
+2024/01/05-20:52:00.221 4eb5 Delete type=2 #137
+2024/01/05-21:09:06.463 601a Level-0 table #144: started
+2024/01/05-21:09:06.531 601a Level-0 table #144: 935767 bytes OK
+2024/01/05-21:09:06.549 601a Delete type=0 #139
+2024/01/05-21:11:05.589 4eb5 Compacting 1@1 + 2@2 files
+2024/01/05-21:11:05.752 4eb5 Generated table #145@1: 10618 keys, 2176413 bytes
+2024/01/05-21:11:05.795 4eb5 Generated table #146@1: 3759 keys, 1252682 bytes
+2024/01/05-21:11:05.795 4eb5 Compacted 1@1 + 2@2 files => 3429095 bytes
+2024/01/05-21:11:05.809 4eb5 compacted to: files[ 0 0 2 0 0 0 0 ]
+2024/01/05-21:11:05.810 4eb5 Delete type=2 #141
+2024/01/05-21:11:05.810 4eb5 Delete type=2 #142
+2024/01/05-21:11:05.810 4eb5 Delete type=2 #144
+2024/01/05-21:48:51.327 737d Level-0 table #148: started
+2024/01/05-21:48:51.404 737d Level-0 table #148: 1058815 bytes OK
+2024/01/05-21:48:51.418 737d Delete type=0 #143
+2024/01/05-21:51:17.740 4eb5 Compacting 1@1 + 2@2 files
+2024/01/05-21:51:17.871 4eb5 Generated table #149@1: 10619 keys, 2173489 bytes
+2024/01/05-21:51:17.932 4eb5 Generated table #150@1: 3802 keys, 1192282 bytes
+2024/01/05-21:51:17.932 4eb5 Compacted 1@1 + 2@2 files => 3365771 bytes
+2024/01/05-21:51:17.942 4eb5 compacted to: files[ 0 0 2 0 0 0 0 ]
+2024/01/05-21:51:17.944 4eb5 Delete type=2 #145
+2024/01/05-21:51:17.944 4eb5 Delete type=2 #148
+2024/01/05-21:51:17.944 4eb5 Delete type=2 #146
