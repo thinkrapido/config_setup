@@ -1,6 +1,7 @@
 export DISPLAY=:0
 export LIBGL_ALWAYS_INDIRECT=1
 
+export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/.config/Mothership/bin:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
 export PATH=$HOME/.local/share/solana/install/active_release/bin:$PATH
