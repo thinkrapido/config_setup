@@ -50,6 +50,7 @@ in
     picom
     wlogout
     networkmanagerapplet
+    rclone
   ];
 
   virtualisation.docker.enable = true;

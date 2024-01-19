@@ -1,9 +1,8 @@
-export DISPLAY=:0
+export DISPLAY=:1
 export LIBGL_ALWAYS_INDIRECT=1
 
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/.config/Mothership/bin:$PATH
-export PATH=$HOME/.cargo/bin:$PATH
 export PATH=$HOME/.local/share/solana/install/active_release/bin:$PATH
 
 export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}
@@ -15,6 +14,7 @@ export PATH="$WASMTIME_HOME/bin:$PATH"
 
 export PATH=$HOME/.surrealdb:$PATH
 
+. "$HOME/.cargo/env"
 
 function zj() {
     ZELLIJ_AUTO_ATTACH=1
@@ -46,3 +46,7 @@ completion
 eval "$(starship init bash)"
 
 command -v one 1>/dev/null && ps -A | grep rclone 1>/dev/null || one
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
