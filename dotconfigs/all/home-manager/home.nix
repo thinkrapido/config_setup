@@ -56,6 +56,9 @@ rec {
       thunderbird
       firefox
       google-chrome
+      element-desktop
+#      signal-desktop
+      discord
       vscode
       spotify
       qemu

@@ -1,0 +1,1 @@
+patchelf --set-interpreter $(patchelf --print-interpreter `which cp`) "$1"

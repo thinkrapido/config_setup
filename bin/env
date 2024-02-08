@@ -15,6 +15,7 @@ export PATH="$WASMTIME_HOME/bin:$PATH"
 export PATH=$HOME/.surrealdb:$PATH
 
 . "$HOME/.cargo/env"
+which sccache 1>&2 2>/dev/null && export RUSTC_WRAPPER=`which sccache`
 
 function zj() {
     ZELLIJ_AUTO_ATTACH=1
