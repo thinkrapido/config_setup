@@ -2,19 +2,20 @@ export DISPLAY=:1
 export LIBGL_ALWAYS_INDIRECT=1
 
 export PATH=$HOME/.local/bin:$PATH
-export PATH=$HOME/.config/Mothership/bin:$PATH
 export PATH=$HOME/.local/share/solana/install/active_release/bin:$PATH
 
 export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}
-export LD_LIBRARY_PATH=/usr/local/cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 export CUDA_HOME=/usr/local/cuda
+export LD_LIBRARY_PATH=$CUDA_HOME/lib64:${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 
 export WASMTIME_HOME="$HOME/.wasmtime"
 export PATH="$WASMTIME_HOME/bin:$PATH"
 
 export PATH=$HOME/.surrealdb:$PATH
 
-. "$HOME/.cargo/env"
+function noop() { return 0; }
+
+[ -e "$HOME/.cargo/env" ] && . "$HOME/.cargo/env" || noop
 which sccache 1>&2 2>/dev/null && export RUSTC_WRAPPER=`which sccache`
 
 function zj() {
@@ -40,14 +41,14 @@ function completion() {
 
 completion
 
-[ -e ~/.no-zellij ] || zj
+[ -e ~/.no-zellij ] && noop || zj
 
-[ -e $HOME/.sdkman/bin/sdkman-init.sh ] && . $HOME/.sdkman/bin/sdkman-init.sh
+[ -e $HOME/.sdkman/bin/sdkman-init.sh ] && . $HOME/.sdkman/bin/sdkman-init.sh || noop
 
 eval "$(starship init bash)"
 
-command -v one 1>/dev/null && ps -A | grep rclone 1>/dev/null || one
+command -v one 1>/dev/null && ps -A | grep rclone 1>/dev/null && noop || one
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export NVM_DIR=$HOME/.nvm
+[ -e "$HOME/.nvm/nvm.sh" ] && . "$NVM_DIR/nvm.sh" || noop # This loads nvm
+[ -e "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion" || noop # This loads nvm bash_completion
