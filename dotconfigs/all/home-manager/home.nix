@@ -42,30 +42,15 @@ rec {
       killall
       wget
       alacritty
-      kitty
       gnome-extension-manager
       gnome.gnome-session
       fd
       wlogout
-      python312
       neofetch
       autojump
       distrobox
       waybar
       rofi
-      thunderbird
-      firefox
-      google-chrome
-      element-desktop
-#      signal-desktop
-      discord
-      vscode
-      spotify
-      qemu
-      brave
-      cryptomator
-      gh
-      okular
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage

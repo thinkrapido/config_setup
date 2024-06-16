@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+[ -e ~/OneDrive/Dokumente ] || mkdir -p OneDrive/Dokumente
+command -v rclone 1>/dev/null && rclone --vfs-cache-mode writes mount hidrive:. /home/jbc/Job/webdav &
